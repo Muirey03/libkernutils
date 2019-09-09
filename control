@@ -1,0 +1,10 @@
+Package: com.muirey03.libkernutils
+Name: libkernutils
+Depends: 
+Version: 1.0
+Architecture: iphoneos-arm
+Description: iOS kernel utilities taken from unc0ver's Unrestrict
+Maintainer: Muirey03
+Author: Muirey03
+Section: System
+Tag: role::developer

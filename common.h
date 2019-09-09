@@ -19,7 +19,7 @@ struct timeval dl_tv;
     if (log_file == NULL) {                                         \
         char *log_path;                                             \
         if (asprintf(&log_path,                                     \
-                "/var/log/unrestrict-%d.log", getpid()) == -1) {    \
+                "/var/log/libkernutils-%d.log", getpid()) == -1) {    \
             break;                                                  \
         }                                                           \
         log_file = fopen(log_path, "a");                            \
